@@ -41,4 +41,5 @@ ActiveRecord::Schema.define(version: 2022_03_05_061436) do
   end
 
   add_foreign_key "room_users", "rooms"
+  add_foreign_key "room_users", "users"
 end
